@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo_millo"
+    tools:context=".MainActivity"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="83dp">
+
+    <ImageButton
+        android:id="@+id/Button_publico"
+        android:layout_width="61dp"
+        android:layout_height="56dp"
+        android:contentDescription="publico"
+        android:onClick="comodin_publico"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.765"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.135"
+        app:srcCompat="@drawable/comodin_publico"
+        tools:ignore="ContentDescription,SpeakableTextPresentCheck,UsingOnClickInXml" />
+
+    <ImageButton
+        android:id="@+id/Button_5050"
+        android:layout_width="61dp"
+        android:layout_height="61dp"
+        android:contentDescription="comodin_50"
+        android:onClick="comodin_5050"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.874"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.137"
+        app:srcCompat="@drawable/comodin_50"
+        tools:ignore="UsingOnClickInXml" />
+
+    <ImageButton
+        android:id="@+id/Button_llamada"
+        android:layout_width="56dp"
+        android:layout_height="61dp"
+        android:contentDescription="comodin_llamada"
+        android:onClick="comodin_llamada"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.976"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.137"
+        app:srcCompat="@drawable/comodin_llamada"
+        tools:ignore="SpeakableTextPresentCheck,UsingOnClickInXml" />
+
+    <TextView
+        android:id="@+id/Text_pregunta"
+        android:layout_width="456dp"
+        android:layout_height="60dp"
+        android:text="prueba de pregunta"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.433" />
+
+    <Button
+        android:id="@+id/Button_opcion_a"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="301dp"
+        android:layout_height="54dp"
+        android:onClick="opciones"
+        android:text="opcion a"
+        android:textColorHighlight="#EAE6E6"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.037"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.742"
+        app:rippleColor="#FFFFFF"
+        tools:ignore="UsingOnClickInXml" />
+
+    <Button
+        android:id="@+id/button_opcion_c"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="301dp"
+        android:layout_height="54dp"
+        android:onClick="opciones"
+        android:text="Opcion c"
+        android:textColorHighlight="#EAE6E6"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.879"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.742"
+        app:rippleColor="#FFFFFF"
+        tools:ignore="UsingOnClickInXml" />
+
+    <Button
+        android:id="@+id/button_opcion_d"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="301dp"
+        android:layout_height="54dp"
+        android:onClick="opciones"
+        android:text="opcion d"
+        android:textColorHighlight="#EAE6E6"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.879"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.915"
+        app:rippleColor="#FFFFFF"
+        tools:ignore="UsingOnClickInXml" />
+
+    <Button
+        android:id="@+id/button_opcion_b"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="301dp"
+        android:layout_height="54dp"
+        android:onClick="opciones"
+        android:text="opcion b"
+        android:textColorHighlight="#EAE6E6"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.037"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.915"
+        app:rippleColor="#FFFFFF"
+        tools:ignore="UsingOnClickInXml" />
+
+    <TextView
+        android:id="@+id/Text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ronda"
+        android:textColor="#FAF5F5"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.499"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.054" />
+
+    <TextView
+        android:id="@+id/Text_ronda"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1"
+        android:textColor="#FAFAFA"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.151" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Comodines"
+        android:textColor="#FDFDFD"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.898"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.029" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reiniciar"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.09"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.041" />
+
+    <ImageButton
+        android:id="@+id/button_reinicion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="Reiniciar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.089"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.116"
+        app:srcCompat="@drawable/comodin_cambio" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
